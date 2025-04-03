@@ -19,7 +19,6 @@ const RoomProvider = ({children}) => {
       return total<=room.maxPerson
     });
     setRooms(newRooms);
-    console.log(total);
   }
   return <RoomContext.Provider value={{ rooms, adults ,setAdults,kids,setKids,total,setTotal,setRooms,handleClick}}>
         {children}
