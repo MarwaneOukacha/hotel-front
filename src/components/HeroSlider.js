@@ -28,7 +28,7 @@ const HeroSlider = () => {
   return <Swiper modules={[EffectFade,Autoplay]} effect={'fade'} loop={true} autoplay={{delay:1000,disableOnInteraction:false}} className='heroSlider h-[600px] lg:h-[860px]'>
     {
       slides.map((slide,index)=>{
-        return <SwiperSlide className='h-full bg-pink-400 relative flex justify-center items-center' key={index}>
+        return <SwiperSlide className='h-full relative flex justify-center items-center' key={index}>
           <div className='z-20 text-white text-center'>
             <div className='uppercase font-tertiary  tracking-[6px] mb-5'>
               just enjoy and relax
