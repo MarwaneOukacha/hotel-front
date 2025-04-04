@@ -2,12 +2,14 @@ import React from "react";
 import About01 from '../assets/img/rooms/chill01.jpg';
 import About02 from '../assets/img/rooms/chill02.jpg';
 import About03 from '../assets/img/rooms/spic.jpg';
+import About04 from '../assets/img/rooms/restaurant.jpg';
+
 
 
 
 const About = () => {
   return (
-    <section className="py-24">
+    <section id="about" className="py-24">
       <div className="container mx-auto px-6 lg:px-0">
         {/* Heading */}
         <div className="text-center mb-12">
@@ -57,24 +59,7 @@ const About = () => {
           </div>
         </section>
 
-        {/* Our Services Section */}
-        <section className="flex flex-col lg:flex-row items-center">
-          <div className="w-full lg:w-1/2">
-            <img
-              src={About03}
-              alt="Our Services"
-              className="w-full h-auto rounded-lg shadow-lg"
-            />
-          </div>
-          <div className="w-full lg:w-1/2 p-6 text-center lg:text-left">
-            <h3 className="font-primary text-[30px] mb-4">Our Services</h3>
-            <p className="text-gray-600 text-lg">
-              From luxury accommodations to curated desert tours, we offer an
-              exclusive range of services designed for your ultimate relaxation.
-              Enjoy fine dining, spa treatments, and breathtaking landscapes.
-            </p>
-          </div>
-        </section>
+        
       </div>
     </section>
   );

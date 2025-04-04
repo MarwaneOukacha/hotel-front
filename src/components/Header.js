@@ -49,6 +49,9 @@ const Header = () => {
           <a href="/" onClick={(e) => handleNavClick(e, 'about')} className="hover:text-accent transition">
             About Us
           </a>
+          <a href="/" onClick={(e) => handleNavClick(e, 'services')} className="hover:text-accent transition">
+            Services
+          </a>
           <a href="/" onClick={(e) => handleNavClick(e, 'contact')} className="hover:text-accent transition">
             Contact
           </a>
