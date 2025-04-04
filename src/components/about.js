@@ -32,37 +32,15 @@ const About = () => {
             />
           </div>
           <div className="w-full lg:w-1/2 p-6 text-center lg:text-left">
-            <h3 className="text-3xl font-semibold mb-4">Our Story</h3>
+            <h3 className="font-primary text-[30px] mb-4">local life</h3>
             <p className="text-gray-600 text-lg">
-              Founded with a passion for hospitality, our hotel has been a
-              sanctuary for travelers seeking authenticity and comfort. Nestled
-              in the heart of Morocco, we offer a blend of tradition and
-              modernity.
-            </p>
-          </div>
-        </section>
-
-        {/* Our Services Section */}
-        <section className="flex flex-col lg:flex-row-reverse items-center mb-20">
-          <div className="w-full lg:w-1/2">
-            <img
-              src={About03}
-              alt="Our Services"
-              className="w-full h-auto rounded-lg shadow-lg"
-            />
-          </div>
-          <div className="w-full lg:w-1/2 p-6 text-center lg:text-left">
-            <h3 className="text-3xl font-semibold mb-4">Our Services</h3>
-            <p className="text-gray-600 text-lg">
-              From luxury accommodations to curated desert tours, we offer an
-              exclusive range of services designed for your ultimate relaxation.
-              Enjoy fine dining, spa treatments, and breathtaking landscapes.
+            A masterpiece of simplicity and expression, the clay buildings cleverly negotiates various pragmatic and emotive elements of the real desert experience. (The Berber’s) weren’t thinking about making something that looked a certain way, they were thinking, ‘Where is the sun, the wind? What is the structure’s purpose within its environment?’ That’s why their buildings have remained over time. Likewise, at Aitisfoul we started with the original purpose of the structure, the history of the local village life and the personality of the place. The concept evolved from these things organically.
             </p>
           </div>
         </section>
 
         {/* Our Values Section */}
-        <section className="flex flex-col lg:flex-row items-center">
+        <section className="flex flex-col lg:flex-row-reverse items-center mb-20">
           <div className="w-full lg:w-1/2">
             <img
               src={About02}
@@ -71,11 +49,29 @@ const About = () => {
             />
           </div>
           <div className="w-full lg:w-1/2 p-6 text-center lg:text-left">
-            <h3 className="text-3xl font-semibold mb-4">Our Values</h3>
+            <h3 className="font-primary text-[30px] mb-4">Desert life</h3>
             <p className="text-gray-600 text-lg">
-              Sustainability, cultural authenticity, and guest satisfaction are
-              at the heart of everything we do. We strive to create an
-              eco-friendly, welcoming environment for all guests.
+            With respect to the founder, Mohamed Yassine's overarching concept of Ait isfoul’s as a “gathering place” for meaningful interactions… its aim at creating connectedness and blurring the boundaries – with both locals and guests –
+            The idea is realized through the buildings and their relations to the environment, whenever possible making the natural life and land,  flow both inside and out.  Communal gathering places revolving around the pool and the covered pavilion are tastefully decorated with elements drawn from the environment  – all to suggest that simplicity is our ultimate luxury. – the simple life, the desert life.
+            </p>
+          </div>
+        </section>
+
+        {/* Our Services Section */}
+        <section className="flex flex-col lg:flex-row items-center">
+          <div className="w-full lg:w-1/2">
+            <img
+              src={About03}
+              alt="Our Services"
+              className="w-full h-auto rounded-lg shadow-lg"
+            />
+          </div>
+          <div className="w-full lg:w-1/2 p-6 text-center lg:text-left">
+            <h3 className="font-primary text-[30px] mb-4">Our Services</h3>
+            <p className="text-gray-600 text-lg">
+              From luxury accommodations to curated desert tours, we offer an
+              exclusive range of services designed for your ultimate relaxation.
+              Enjoy fine dining, spa treatments, and breathtaking landscapes.
             </p>
           </div>
         </section>

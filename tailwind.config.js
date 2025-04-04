@@ -1,5 +1,8 @@
 module.exports = {
   content: ['./src/**/*.{js,jsx,ts,tsx}'],
+  corePlugins: {
+    scrollBehavior: true,
+  },
   theme: {
     fontFamily: {
       primary: 'Gilda Display',
