@@ -2,6 +2,7 @@ import React, { useContext } from 'react';
 import { RoomContext } from '../context/RoomContext';
 import Room from '../components/Room';
 import {SpinnerDotted} from 'spinners-react'
+import { Link } from 'react-router-dom';
 
 const Rooms = () => {
   const {rooms,loading}=useContext(RoomContext);
@@ -22,7 +23,18 @@ const Rooms = () => {
             
             return <Room room={room} key={room.id}/>
           })}
+          <div className='bg-white shadow-lg p-6 rounded-lg flex justify-center items-center'>
+      <Link
+        to={`/rooms`}
+        className='btn btn-secondary btn-sm'
+      >
+        View More
+      </Link>
+    </div>
         </div>
+        
+        
+        
     </div>
   </section>;
 };

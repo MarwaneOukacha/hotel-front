@@ -1,6 +1,6 @@
 import React from "react";
 import About01 from '../assets/img/rooms/chill01.jpg';
-import About02 from '../assets/img/rooms/chill01.jpg';
+import About02 from '../assets/img/rooms/chill02.jpg';
 import About03 from '../assets/img/rooms/spic.jpg';
 
 
