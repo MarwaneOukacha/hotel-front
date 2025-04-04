@@ -27,6 +27,7 @@ module.exports = {
       },
       backgroundImage: {
         room: "url('./assets/img/room.jpg')",
+        chambre:"url('./assets/img/room03.jpg')"
       },
     },
   },

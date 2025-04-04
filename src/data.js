@@ -16,6 +16,8 @@ import Room7ImgLg from './assets/img/rooms/7-lg.png';
 import Room8Img from './assets/img/rooms/8.png';
 import Room8ImgLg from './assets/img/rooms/8-lg.png';
 import RommeH01 from './assets/img/rooms/room01.jpg'
+import RommeH02 from './assets/img/rooms/room02.jpg'
+import RommeH03 from './assets/img/rooms/room03.jpg'
 // import icons
 import {
   FaWifi,
@@ -47,8 +49,8 @@ export const roomData = [
     size: 30,
     maxPerson: 1,
     price: 115,
-    image: Room1Img,
-    imageLg: Room1ImgLg,
+    image: RommeH01,
+    imageLg: RommeH01,
   },
   {
     id: 2,
@@ -68,8 +70,8 @@ export const roomData = [
     size: 70,
     maxPerson: 2,
     price: 220,
-    image: Room2Img,
-    imageLg: Room2ImgLg,
+    image: RommeH02,
+    imageLg: RommeH02,
   },
   {
     id: 3,
@@ -89,8 +91,8 @@ export const roomData = [
     size: 50,
     maxPerson: 3,
     price: 265,
-    image: Room3Img,
-    imageLg: Room3ImgLg,
+    image: RommeH03,
+    imageLg: RommeH03,
   },
   {
     id: 4,
