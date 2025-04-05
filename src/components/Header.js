@@ -50,11 +50,22 @@ const Header = () => {
             About Us
           </a>
           <a href="/" onClick={(e) => handleNavClick(e, 'services')} className="hover:text-accent transition">
-            Services
+            Restaurant
+          </a>
+          <a href="/" onClick={(e) => handleNavClick(e, 'experiences')} className="hover:text-accent transition">
+            Experiences
           </a>
           <a href="/" onClick={(e) => handleNavClick(e, 'contact')} className="hover:text-accent transition">
             Contact
           </a>
+          <a href="/" className="px-4 py-2  transition hover:bg-accent hover:text-white">
+            Sign In
+          </a>
+          <a href="/" className="px-4 py-2  transition hover:bg-accent hover:text-white">
+            Sign Up
+          </a>
+
+          
         </nav>
       </div>
     </header>

@@ -8,6 +8,7 @@ import { useLocation } from 'react-router-dom';
 
 import { useEffect } from 'react';
 import Services from '../components/Services';
+import Experiences from '../components/Experiences';
 
 const Home = () => {
   const location = useLocation();
@@ -35,6 +36,8 @@ const Home = () => {
       <section id="rooms"><Rooms /></section>
       <section id="about"><About /></section>
       <section id="services"><Services /></section>
+      <section id="experiences"><Experiences/></section>
+      
       <section id="contact"><Contact /></section>
     </>
   );
